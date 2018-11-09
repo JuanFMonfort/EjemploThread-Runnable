@@ -1,0 +1,17 @@
+```
+java
+public class NumberThread extends Thread{
+	int num;
+	
+	public NumberThread(int n) {
+		num=n;
+	}
+	
+	public void run() {
+		for (int i = 0; i < 10; i++) {
+			System.out.println(num);
+		}
+	}
+}
+
+```
