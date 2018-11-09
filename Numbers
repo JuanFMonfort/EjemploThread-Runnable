@@ -1,0 +1,34 @@
+public class Numbers {
+	public static void main(String[] args) {
+		NumberThread nt1, nt2, nt3, nt4, nt5, nt6;
+		
+		nt1=new NumberThread(1);
+		nt1.start();
+		nt2=new NumberThread(2);
+		nt2.start();
+		nt3=new NumberThread(3);
+		nt3.start();
+		nt4=new NumberThread(4);
+		nt4.start();
+		nt5=new NumberThread(5);
+		nt5.start();
+		nt6=new NumberThread(6);
+		nt6.start();
+		
+		NumberRunnable nr1, nr2, nr3, nr4, nr5, nr6;
+		
+		nr1=new NumberRunnable(71);
+		nr1.run();
+		nr2=new NumberRunnable(72);
+		nr2.run();
+		nr3=new NumberRunnable(73);
+		nr3.run();
+		nr4=new NumberRunnable(74);
+		nr4.run();
+		nr5=new NumberRunnable(75);
+		nr5.run();
+		nr6=new NumberRunnable(76);
+		nr6.run();
+
+	}
+}
