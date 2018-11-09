@@ -1,4 +1,4 @@
-´´´ java
+``` java
 
 public class NumberThread extends Thread{
 	int num;
@@ -14,4 +14,4 @@ public class NumberThread extends Thread{
 	}
 }
 
-´´´
+```
